@@ -7,6 +7,7 @@
 import { useRouter } from 'vue-router'
 const router = useRouter()
 const go = () => {
+  console.log(1)
   router.push('/second')
 }
 </script>
